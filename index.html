@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pradnya Kamble – Frontend Developer & UI/UX Designer</title>
+  <meta name="description" content="Portfolio of Pradnya Kamble – Frontend Developer and UI/UX Designer based in Mumbai, India.">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- CURSOR GLOW (dark mode only) -->
+<div class="glow" id="glow"></div>
+
+<!-- BACK TO TOP -->
+<a href="#home" class="back-top" id="backTop" aria-label="Back to top">↑</a>
+
+<!-- ════════════ NAV ════════════ -->
+<nav id="navbar">
+  <a href="#home" class="nav-logo">P<span>.</span>K</a>
+
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#hobbies">Hobbies</a></li>
+  </ul>
+
+  <div class="nav-actions">
+    <!-- LIGHT / DARK TOGGLE -->
+    <button class="theme-toggle" id="themeToggle" title="Toggle Theme">☀️</button>
+    <a href="#contact" class="nav-cta">Hire Me</a>
+    <button class="hamburger" id="hamburger" aria-label="Open Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#education">Education</a>
+  <a href="#hobbies">Hobbies</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- ════════════ HERO ════════════ -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-bg-glow"></div>
+    <div class="hero-bg-glow2"></div>
+  </div>
+
+  <!-- LEFT TEXT -->
+  <div class="hero-text fade">
+    <div class="hero-tag">
+      <span class="hero-tag-dot"></span>Available for Opportunities
+    </div>
+    <h1>
+      <span class="line1">Pradnya</span>
+      <span class="line2">Kamble</span>
+      <span class="line3">UI/UX & Dev</span>
+    </h1>
+    <p class="hero-desc">
+      Frontend Developer &amp; UI/UX Designer crafting
+      <strong>responsive, beautiful</strong> web experiences.
+      Proficient in <strong>Figma, HTML, CSS, JavaScript</strong> —
+      turning ideas into pixel-perfect products.
+    </p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn-rose">View Projects ↗</a>
+      <a href="#contact" class="btn-ghost">Get in Touch →</a>
+      <a href="Pradnya_Kamble_Resume.pdf" download="Pradnya_Kamble_Resume.pdf"
+         class="btn-download" id="resumeBtn">⬇ Download Resume</a>
+    </div>
+    <div class="hero-links">
+      <a href="https://github.com/pradnya-kamble-dev" target="_blank" rel="noopener" class="hero-link">
+        <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.13 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        GitHub
+      </a>
+      <a href="https://linkedin.com/in/pradnya-kamble-dev" target="_blank" rel="noopener" class="hero-link">
+        <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.37V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.59 0 4.26 2.36 4.26 5.43v6.31zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zm1.78 13.02H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.46C23.2 24 24 23.23 24 22.27V1.73C24 .77 23.2 0 22.23 0z"/></svg>
+        LinkedIn
+      </a>
+      <a href="mailto:pradnya.kamble.dev@gmail.com" class="hero-link">✉ Email</a>
+    </div>
+  </div>
+
+  <!-- RIGHT CARD -->
+  <div class="hero-visual">
+    <div class="hero-card-wrap">
+      <div class="card-bg-deco"></div>
+      <div class="card-bg-deco2"></div>
+      <div class="hero-card fade fade-delay-2">
+        <div class="hero-card-accent"></div>
+        <!--
+          TO ADD YOUR PHOTO:
+          Replace the <div class="profile-initials"> block below with:
+          <div class="profile-wrap">
+            <img src="your-photo.jpg" alt="Pradnya Kamble">
+          </div>
+        -->
+        <div class="profile-initials">PK</div>
+        <div class="hero-card-name">Pradnya Kamble</div>
+        <div class="hero-card-role">Frontend Developer · UI/UX Designer</div>
+        <div class="hero-card-divider"></div>
+        <div class="hero-card-stats">
+          <div class="hcs"><div class="hcs-num">3+</div><div class="hcs-label">Projects</div></div>
+          <div class="hcs"><div class="hcs-num">7.86</div><div class="hcs-label">CGPA</div></div>
+          <div class="hcs"><div class="hcs-num">25%</div><div class="hcs-label">Satisfaction ↑</div></div>
+          <div class="hcs"><div class="hcs-num">3</div><div class="hcs-label">Languages</div></div>
+        </div>
+      </div>
+      <div class="hero-badge">✦ Open to Work</div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ ABOUT ════════════ -->
+<section id="about">
+  <div class="s-inner">
+    <div class="about-grid">
+
+      <!-- LEFT: Stats -->
+      <div class="fade">
+        <p class="section-eyebrow">Who I Am</p>
+        <h2>Design meets<br><em>code</em></h2>
+        <!-- Replace src with your own photo later -->
+        <div class="about-photo-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&q=80"
+            alt="Workspace — replace with your own photo"
+            loading="lazy">
+        </div>
+        <div class="about-stats">
+          <div class="stat-box"><div class="stat-num">3+</div><div class="stat-label">Projects Delivered</div></div>
+          <div class="stat-box"><div class="stat-num">7.86</div><div class="stat-label">B.E. CGPA · Computer Science</div></div>
+          <div class="stat-box"><div class="stat-num">25%</div><div class="stat-label">Customer Satisfaction Increase</div></div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Content -->
+      <div class="about-content fade fade-delay-1">
+        <p>I'm a <strong>Frontend Developer and UI/UX Designer</strong> with a B.E. in Computer Science Engineering from CSMIT, Panvel (University of Mumbai). I love crafting interfaces that are both beautiful and functional.</p>
+        <p>From wireframes in <strong>Figma</strong> to pixel-perfect responsive code, I bring ideas to life with creativity and technical precision. I'm eager to contribute to a fast-paced, innovative team.</p>
+        <div class="info-grid">
+          <div class="info-item">
+            <div class="info-label">Phone</div>
+            <div class="info-val">+91-7039220530</div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">Email</div>
+            <div class="info-val"><a href="mailto:pradnya.kamble.dev@gmail.com">pradnya.kamble.dev@gmail.com</a></div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">LinkedIn</div>
+            <div class="info-val"><a href="https://linkedin.com/in/pradnya-kamble-dev" target="_blank">pradnya-kamble-dev</a></div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">GitHub</div>
+            <div class="info-val"><a href="https://github.com/pradnya-kamble-dev" target="_blank">pradnya-kamble-dev</a></div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">Location</div>
+            <div class="info-val">Mumbai, India</div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">Status</div>
+            <div class="info-val" style="color:var(--rose);font-weight:500">✦ Available</div>
+          </div>
+        </div>
+        <div class="lang-chips">
+          <span class="lang-chip">🇮🇳 Marathi</span>
+          <span class="lang-chip">🇮🇳 Hindi</span>
+          <span class="lang-chip">🌐 English</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ SKILLS ════════════ -->
+<section class="skills-section" id="skills">
+  <div class="s-inner">
+    <p class="section-eyebrow">My Toolkit</p>
+    <h2>Skills &amp; <em>Technologies</em></h2>
+    <div class="skills-wrap fade">
+      <div class="skill-block">
+        <div class="skill-block-icon">🎨</div>
+        <div class="skill-block-title">UI / UX Design</div>
+        <div class="skill-tags">
+          <span class="stag">Figma</span>
+          <span class="stag">Adobe XD</span>
+          <span class="stag">Color Theory</span>
+          <span class="stag">Typography</span>
+          <span class="stag">Layout & Spacing</span>
+          <span class="stag">Wireframing</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <div class="skill-block-icon">💻</div>
+        <div class="skill-block-title">Frontend</div>
+        <div class="skill-tags">
+          <span class="stag">HTML5</span>
+          <span class="stag">CSS3</span>
+          <span class="stag">Bootstrap</span>
+          <span class="stag">Tailwind CSS</span>
+          <span class="stag">JavaScript</span>
+          <span class="stag">Flexbox</span>
+          <span class="stag">Media Queries</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <div class="skill-block-icon">⚙️</div>
+        <div class="skill-block-title">Backend</div>
+        <div class="skill-tags">
+          <span class="stag">PHP</span>
+          <span class="stag">SQL</span>
+          <span class="stag">MySQL</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <div class="skill-block-icon">🛠️</div>
+        <div class="skill-block-title">Tools</div>
+        <div class="skill-tags">
+          <span class="stag">Git</span>
+          <span class="stag">VS Code</span>
+          <span class="stag">MS Excel</span>
+          <span class="stag">MS Word</span>
+          <span class="stag">PowerPoint</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ PROJECTS ════════════ -->
+<section id="projects">
+  <div class="s-inner">
+    <p class="section-eyebrow">My Work</p>
+    <h2>Featured <em>Projects</em></h2>
+    <div class="projects-wrap fade">
+
+      <!-- Project 1: FreshMealTrack -->
+      <div class="proj-card">
+        <div class="proj-thumb">
+          <!-- Replace with your own project screenshot -->
+          <img
+            src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=600&q=80"
+            alt="FreshMealTrack Project"
+            loading="lazy">
+          <div class="proj-thumb-overlay">
+            <span class="proj-thumb-label">FMT</span>
+          </div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-role">Frontend Developer</div>
+          <div class="proj-title">FreshMealTrack</div>
+          <p class="proj-desc">Meal tracking &amp; subscription management with a secure backend, role-based access for mess owners, customer feedback module, and real-time analytics dashboard.</p>
+          <div class="proj-tech">
+            <span class="ptag">HTML</span><span class="ptag">CSS</span>
+            <span class="ptag">Tailwind</span><span class="ptag">JavaScript</span>
+            <span class="ptag">MySQL</span>
+          </div>
+          <div class="proj-impact">
+            <span class="pimp">↑ 25% Satisfaction</span>
+            <span class="pimp">↑ 30% Efficiency</span>
+            <span class="pimp">↑ 20% Faster Deliveries</span>
+          </div>
+          <div class="proj-links">
+            <a href="https://fresh-meal-track.onrender.com/" target="_blank" rel="noopener" class="plink-live">🔗 Live Demo</a>
+            <a href="https://github.com/pradnya-kamble-dev" target="_blank" rel="noopener" class="plink-gh">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2: Responsive Service Website -->
+      <div class="proj-card">
+        <div class="proj-thumb">
+          <!-- Replace with your own project screenshot -->
+          <img
+            src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&q=80"
+            alt="Responsive Service Website"
+            loading="lazy">
+          <div class="proj-thumb-overlay">
+            <span class="proj-thumb-label">RSW</span>
+          </div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-role">Frontend Developer</div>
+          <div class="proj-title">Responsive Service Website</div>
+          <p class="proj-desc">Mobile-first responsive site showcasing digital marketing services with video hero section, testimonial carousel, expert tips &amp; contact form with validation.</p>
+          <div class="proj-tech">
+            <span class="ptag">HTML5</span><span class="ptag">CSS3</span>
+            <span class="ptag">Bootstrap</span><span class="ptag">JavaScript</span>
+            <span class="ptag">Font Awesome</span>
+          </div>
+          <div class="proj-links">
+            <span class="plink-soon">🔗 Coming Soon</span>
+            <a href="https://github.com/pradnya-kamble-dev" target="_blank" rel="noopener" class="plink-gh">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3: Personal Portfolio -->
+      <div class="proj-card">
+        <div class="proj-thumb">
+          <!-- Replace with your own project screenshot -->
+          <img
+            src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=600&q=80"
+            alt="Personal Portfolio Website"
+            loading="lazy">
+          <div class="proj-thumb-overlay">
+            <span class="proj-thumb-label">PPW</span>
+          </div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-role">Designer &amp; Developer</div>
+          <div class="proj-title">Personal Portfolio Website</div>
+          <p class="proj-desc">Modern, mobile-friendly portfolio highlighting skills, projects &amp; contact info with resume download and GitHub integration — built from scratch.</p>
+          <div class="proj-tech">
+            <span class="ptag">HTML</span><span class="ptag">CSS</span>
+            <span class="ptag">JavaScript</span><span class="ptag">Bootstrap</span>
+            <span class="ptag">Font Awesome</span>
+          </div>
+          <div class="proj-links">
+            <span class="plink-soon">🔗 Coming Soon</span>
+            <a href="https://github.com/pradnya-kamble-dev" target="_blank" rel="noopener" class="plink-gh">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ EXPERIENCE ════════════ -->
+<section class="exp-section" id="experience">
+  <div class="s-inner">
+    <p class="section-eyebrow">Work History</p>
+    <h2><em>Experience</em></h2>
+    <div class="exp-block fade">
+      <div class="exp-company">Deserve Services</div>
+      <div class="exp-role">Web Technology Intern</div>
+      <div class="exp-dur">40-Day Internship Program</div>
+      <ul class="exp-points">
+        <li>Developed a fully functional Online Cloth Shopping website from scratch</li>
+        <li>Worked with web technologies including HTML, CSS, and Bootstrap for responsive layouts</li>
+        <li>Gained hands-on experience in website structure, layout design, and UX fundamentals</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ EDUCATION ════════════ -->
+<section id="education">
+  <div class="s-inner">
+    <p class="section-eyebrow">Academic Background</p>
+    <h2>Education</h2>
+    <div class="edu-grid fade">
+      <div class="edu-card">
+        <div class="edu-year">2020 – 2023</div>
+        <div class="edu-inst">CSMIT, Panvel</div>
+        <div class="edu-degree">
+          B.E. in Computer Science Engineering<br>
+          <small style="color:var(--muted);font-size:0.8rem;opacity:0.7">University of Mumbai</small>
+        </div>
+        <span class="edu-badge">7.86 CGPA</span>
+      </div>
+      <div class="edu-card">
+        <div class="edu-year">2017 – 2020</div>
+        <div class="edu-inst">DR. D.Y. Patil Polytechnic, Nerul</div>
+        <div class="edu-degree">
+          Diploma in Computer Engineering<br>
+          <small style="color:var(--muted);font-size:0.8rem;opacity:0.7">University of Mumbai</small>
+        </div>
+        <span class="edu-badge">83.83%</span>
+      </div>
+      <div class="edu-card">
+        <div class="edu-year">2016 – 2017</div>
+        <div class="edu-inst">Dnyanprasarini High School, Kalwa</div>
+        <div class="edu-degree">
+          SSC – Maharashtra State Board<br>
+          <small style="color:var(--muted);font-size:0.8rem;opacity:0.7">Thane, Maharashtra</small>
+        </div>
+        <span class="edu-badge">71.60%</span>
+      </div>
+    </div>
+
+    <p class="section-eyebrow">Certifications</p>
+    <div class="cert-wrap fade">
+      <div class="cert-icon">🏅</div>
+      <div>
+        <div class="cert-name">Web Development Course</div>
+        <div class="cert-org">S-IT Computers · 3 Months</div>
+        <div class="cert-desc">Learned HTML, CSS, JavaScript, PHP, Bootstrap. Built an Online Shopping website and practised responsive UI layout creation.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ HOBBIES ════════════ -->
+<section class="hobbies-section" id="hobbies">
+  <div class="s-inner">
+    <p class="section-eyebrow">Beyond the Screen</p>
+    <h2>Hobbies &amp; <em>Interests</em></h2>
+    <div class="hobbies-flex fade">
+      <div class="hob-card">
+        <!-- Replace with your own photo -->
+        <img class="hob-img"
+          src="https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=300&q=70"
+          alt="Dance" loading="lazy">
+        <span class="hob-icon">💃</span>
+        <span class="hob-label">Dance</span>
+      </div>
+      <div class="hob-card">
+        <img class="hob-img"
+          src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=300&q=70"
+          alt="Learning" loading="lazy">
+        <span class="hob-icon">📚</span>
+        <span class="hob-label">Learning New Things</span>
+      </div>
+      <div class="hob-card">
+        <img class="hob-img"
+          src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=300&q=70"
+          alt="Food" loading="lazy">
+        <span class="hob-icon">🍽️</span>
+        <span class="hob-label">Eating Food</span>
+      </div>
+      <div class="hob-card">
+        <img class="hob-img"
+          src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=300&q=70"
+          alt="Traveling" loading="lazy">
+        <span class="hob-icon">✈️</span>
+        <span class="hob-label">Traveling</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ CONTACT ════════════ -->
+<section class="contact-section" id="contact">
+  <div class="s-inner">
+    <div class="contact-grid">
+
+      <!-- LEFT INFO -->
+      <div class="contact-info fade">
+        <p class="section-eyebrow">Say Hello</p>
+        <h2>Let's <em>Connect</em></h2>
+        <p class="contact-subtitle">
+          Have a project in mind, a job opportunity, or just want to say hi?
+          Fill the form and reach me directly on <strong>WhatsApp</strong>
+          or <strong>Email</strong> — whichever you prefer!
+        </p>
+        <ul class="cinfo-list">
+          <li class="cinfo-item">
+            <span class="cinfo-icon">📞</span>
+            <div>
+              <div class="cinfo-label">Phone / WhatsApp</div>
+              <div class="cinfo-val"><a href="https://wa.me/917039220530" target="_blank">+91-7039220530</a></div>
+            </div>
+          </li>
+          <li class="cinfo-item">
+            <span class="cinfo-icon">✉️</span>
+            <div>
+              <div class="cinfo-label">Email</div>
+              <div class="cinfo-val"><a href="mailto:pradnya.kamble.dev@gmail.com">pradnya.kamble.dev@gmail.com</a></div>
+            </div>
+          </li>
+          <li class="cinfo-item">
+            <span class="cinfo-icon">🔗</span>
+            <div>
+              <div class="cinfo-label">LinkedIn</div>
+              <div class="cinfo-val"><a href="https://linkedin.com/in/pradnya-kamble-dev" target="_blank">pradnya-kamble-dev</a></div>
+            </div>
+          </li>
+          <li class="cinfo-item">
+            <span class="cinfo-icon">💻</span>
+            <div>
+              <div class="cinfo-label">GitHub</div>
+              <div class="cinfo-val"><a href="https://github.com/pradnya-kamble-dev" target="_blank">pradnya-kamble-dev</a></div>
+            </div>
+          </li>
+          <li class="cinfo-item">
+            <span class="cinfo-icon">📍</span>
+            <div>
+              <div class="cinfo-label">Location</div>
+              <div class="cinfo-val">Mumbai, India</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- RIGHT FORM -->
+      <div class="contact-form-wrap fade fade-delay-1">
+        <div class="form-row">
+          <div class="form-group" id="fg-name">
+            <label class="form-label">Your Name *</label>
+            <input type="text" id="f-name" class="form-input" placeholder="e.g. Rahul Sharma">
+            <div class="form-error">Please enter your name</div>
+          </div>
+          <div class="form-group" id="fg-mobile">
+            <label class="form-label">Mobile Number</label>
+            <input type="tel" id="f-mobile" class="form-input" placeholder="+91 XXXXX XXXXX">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group" id="fg-email">
+            <label class="form-label">Email Address *</label>
+            <input type="email" id="f-email" class="form-input" placeholder="you@example.com">
+            <div class="form-error">Please enter a valid email</div>
+          </div>
+          <div class="form-group" id="fg-subject">
+            <label class="form-label">Subject *</label>
+            <select id="f-subject" class="form-select">
+              <option value="" disabled selected>Select a subject</option>
+              <option value="Job Opportunity">Job Opportunity</option>
+              <option value="Freelance Project">Freelance Project</option>
+              <option value="Collaboration">Collaboration</option>
+              <option value="General Inquiry">General Inquiry</option>
+              <option value="Other">Other</option>
+            </select>
+            <div class="form-error">Please select a subject</div>
+          </div>
+        </div>
+        <div class="form-group" id="fg-message">
+          <label class="form-label">Message *</label>
+          <textarea id="f-message" class="form-textarea"
+            placeholder="Tell me about your project, opportunity, or just say hello..."></textarea>
+          <div class="form-error">Please enter your message</div>
+        </div>
+        <div class="form-buttons">
+          <button class="form-btn-wa" onclick="sendWhatsApp()">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="white">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+              <path d="M12 0C5.373 0 0 5.373 0 12c0 2.117.554 4.107 1.523 5.832L0 24l6.335-1.652C8.06 23.328 9.99 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.846 0-3.593-.51-5.086-1.396l-.366-.217-3.76.981.999-3.67-.238-.378C2.589 15.7 2 13.916 2 12 2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+            </svg>
+            Send via WhatsApp
+          </button>
+          <button class="form-btn-email" onclick="sendEmail()">
+            ✉ Send via Email
+          </button>
+        </div>
+        <div class="form-success" id="f-success">
+          ✅ Opening your preferred app... Thank you for reaching out, Pradnya will get back soon!
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ FOOTER ════════════ -->
+<footer>
+  <div class="footer-brand">
+    <div class="footer-name">Pradnya Kamble</div>
+    <div class="footer-sub">Frontend Developer &amp; UI/UX Designer · Mumbai, India</div>
+  </div>
+  <div class="footer-links">
+    <a href="mailto:pradnya.kamble.dev@gmail.com">Email</a>
+    <a href="https://wa.me/917039220530" target="_blank">WhatsApp</a>
+    <a href="https://linkedin.com/in/pradnya-kamble-dev" target="_blank">LinkedIn</a>
+    <a href="https://github.com/pradnya-kamble-dev" target="_blank">GitHub</a>
+    <a href="https://fresh-meal-track.onrender.com/" target="_blank">Live Project</a>
+  </div>
+  <div class="footer-copy">© 2025 Pradnya Kamble · Built with ❤️ and lots of ☕</div>
+</footer>
+
+<!-- SCRIPT — linked separately -->
+<script src="script.js"></script>
+</body>
+</html>
