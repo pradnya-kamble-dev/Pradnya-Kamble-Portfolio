@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
            in the SAME folder as index.html
         2. Change fileExists = false → true below
       */
-      const fileExists = false;
+      const fileExists = true;
       if (!fileExists) {
         e.preventDefault();
         alert('📄 Resume download is being set up! Please contact me at pradnya.kamble.dev@gmail.com to get my resume.');
